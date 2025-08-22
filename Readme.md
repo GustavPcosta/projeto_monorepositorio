@@ -13,9 +13,13 @@ para rodar ambos os projetos, ou seja, juntos é só entrar na pasta projetos
 dir 
 cd projetos
 e, em seguida dar pnpm -r dev
-OBS:Não esqueça de baixar as dependências de cada projeto
+
 
 
 tecnologias usadas:
 backend: nestjs, mysql e ts
 frontend: react e js
+
+
+OBS:Não esqueça de baixar as dependências de cada projeto
+OBS:use as dependências do prisma npx prisma migrate dev --name init para gerar o prisma/client
