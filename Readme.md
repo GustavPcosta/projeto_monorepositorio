@@ -13,6 +13,7 @@ para rodar ambos os projetos, ou seja, juntos é só entrar na pasta projetos
 dir 
 cd projetos
 e, em seguida dar pnpm -r dev
+OBS:Não esqueça de baixar as dependências de cada projeto
 
 
 tecnologias usadas:
