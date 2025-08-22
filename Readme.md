@@ -1,25 +1,63 @@
-Trata-se de um projeto monorepo, onde vc tem o backend e o frontend juntos, mas em pastas separadas
+# Projeto Monorepo
 
-para rodar o backend vc usa os seguintes comandos
+Este repositório contém o **backend** e o **frontend** em um monorepo, organizados em pastas separadas.  
+Você pode rodar cada projeto individualmente ou ambos juntos.
 
+---
+
+## 📂 Estrutura do Projeto
+
+projetos/
+├── backend/
+│ └── project/
+├── frontend/
+│ └── projeto/
+└── ...
+
+yaml
+Copiar
+Editar
+
+---
+
+## 🚀 Rodando o Backend
+
+```bash
+# Listar diretórios
 dir
+
+# Entrar na pasta principal
 cd projeto
-dir novamente
-cd backend/project 
+dir
 
-mesmos comandos para rodar o frontend/projeto
+# Acessar o backend
+cd backend/project
+Depois rode os comandos de inicialização do backend (exemplo: pnpm dev).
 
-para rodar ambos os projetos, ou seja, juntos é só entrar na pasta projetos 
-dir 
+💻 Rodando o Frontend
+bash
+Copiar
+Editar
+# Listar diretórios
+dir
+
+# Entrar na pasta principal
+cd projeto
+dir
+
+# Acessar o frontend
+cd frontend/projeto
+Depois rode os comandos de inicialização do frontend (exemplo: pnpm dev).
+
+⚡ Rodando Backend e Frontend Juntos
+Para rodar ambos os projetos simultaneamente:
+
+bash
+Copiar
+Editar
+# Entrar na pasta projetos
+dir
 cd projetos
-e, em seguida dar pnpm -r dev
 
-
-
-tecnologias usadas:
-backend: nestjs, mysql e ts
-frontend: react e js
-
-
-OBS:Não esqueça de baixar as dependências de cada projeto
-OBS:use as dependências do prisma npx prisma migrate dev --name init para gerar o prisma/client
+# Rodar todos os apps do monorepo
+pnpm -r dev
