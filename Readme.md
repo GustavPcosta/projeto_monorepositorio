@@ -17,7 +17,7 @@ projetos/
 yaml
 Copiar
 Editar
-
+OBs:provavelmente o nome da pasta principal ao subir será projeto_repositorio, mas é só seguir tudo passo a passo que não terá erros
 ---
 
 ## 🚀 Rodando o Backend
