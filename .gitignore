@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+.pnpm/
+apps/*/node_modules/
+apps/*/dist/
+apps/*/build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Ambientes
+.env
+.env.local
+apps/*/.env
+apps/*/.env.local
+
+# Test / Coverage
+coverage/
+apps/*/coverage/
+*.test.js
+*.spec.js
+
+# Cache
+.pnpm-debug.log
+.cache/
+apps/*/.next/
+apps/*/.turbo/
+
+# Outros
+*.swp
+*.swo
+*.bak
