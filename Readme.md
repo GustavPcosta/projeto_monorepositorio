@@ -4,6 +4,7 @@ Este repositório contém o **backend** e o **frontend** em um monorepo, organiz
 Você pode rodar cada projeto individualmente ou ambos juntos.
 
 ---
+comando para rodar as migrations com prisma $ npx prisma migrate dev --name init
 
 ## 📂 Estrutura do Projeto
 
